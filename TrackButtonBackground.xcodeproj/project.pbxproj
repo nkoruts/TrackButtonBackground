@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		168D1C322B9C53C400151C51 /* PlayImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D1C312B9C53C400151C51 /* PlayImage.swift */; };
+		168D1C352B9C53FF00151C51 /* TrackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168D1C342B9C53FF00151C51 /* TrackButton.swift */; };
 		169C53BC2B9C40A200FC034B /* TrackButtonBackgroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169C53BB2B9C40A200FC034B /* TrackButtonBackgroundApp.swift */; };
 		169C53BE2B9C40A200FC034B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169C53BD2B9C40A200FC034B /* ContentView.swift */; };
 		169C53C02B9C40A300FC034B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169C53BF2B9C40A300FC034B /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		168D1C312B9C53C400151C51 /* PlayImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayImage.swift; sourceTree = "<group>"; };
+		168D1C342B9C53FF00151C51 /* TrackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackButton.swift; sourceTree = "<group>"; };
 		169C53B82B9C40A200FC034B /* TrackButtonBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackButtonBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		169C53BB2B9C40A200FC034B /* TrackButtonBackgroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackButtonBackgroundApp.swift; sourceTree = "<group>"; };
 		169C53BD2B9C40A200FC034B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		168D1C332B9C53D600151C51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				168D1C312B9C53C400151C51 /* PlayImage.swift */,
+				168D1C342B9C53FF00151C51 /* TrackButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		169C53AF2B9C40A200FC034B = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +66,7 @@
 			children = (
 				169C53BB2B9C40A200FC034B /* TrackButtonBackgroundApp.swift */,
 				169C53BD2B9C40A200FC034B /* ContentView.swift */,
+				168D1C332B9C53D600151C51 /* Views */,
 				169C53BF2B9C40A300FC034B /* Assets.xcassets */,
 				169C53C12B9C40A300FC034B /* Preview Content */,
 			);
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				169C53BE2B9C40A200FC034B /* ContentView.swift in Sources */,
+				168D1C352B9C53FF00151C51 /* TrackButton.swift in Sources */,
+				168D1C322B9C53C400151C51 /* PlayImage.swift in Sources */,
 				169C53BC2B9C40A200FC034B /* TrackButtonBackgroundApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
